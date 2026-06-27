@@ -1205,7 +1205,7 @@ export default function App() {
               {/* Maps representation */}
               <div className="w-full h-full rounded-xl relative overflow-hidden flex items-center justify-center">
                 {/* Elegant noir style map placeholder */}
-                <div className="absolute inset-0 bg-[#0c0c0c] flex flex-col justify-center items-center p-6 text-center">
+                <div className="absolute inset-0 bg-[#0c0c0c] flex flex-col justify-center items-center p-6 pb-24 md:pb-6 text-center">
                   <div className="w-16 h-16 rounded-full bg-gold/10 border border-gold flex items-center justify-center mb-4">
                     <MapPin className="w-8 h-8 text-gold animate-bounce" />
                   </div>
@@ -1250,7 +1250,7 @@ export default function App() {
                     <circle cx="50" cy="50" r="3" fill="#C8A45D" />
                   </svg>
 
-                  <div className="absolute bottom-6 bg-noir-card border border-gold/30 px-4 py-2.5 rounded-lg text-[11px] max-w-sm">
+                  <div className="absolute left-1/2 -translate-x-1/2 bottom-6 md:bottom-6 bg-noir-card border border-gold/30 px-4 py-2.5 rounded-lg text-[11px] max-w-sm md:max-w-md w-full max-w-[90%] md:w-auto md:static md:translate-x-0 md:flex md:justify-center">
                     <p className="text-gray-300 font-mono">
                       Valet attendants stand ready at the Tower Entrance 24
                       hours a day to receive your vehicle.
