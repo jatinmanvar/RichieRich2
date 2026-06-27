@@ -345,7 +345,7 @@ export default function App() {
       </nav>
 
       {/* HERO SECTION - IMMERSIVE CINEMATIC BACKGROUND */}
-      <section className="relative h-screen flex flex-col justify-center items-center text-center px-4 overflow-hidden z-10 pt-20">
+      <section className="relative min-h-[120vh] md:min-h-screen flex flex-col justify-center items-center text-center px-4 overflow-hidden z-10 pt-20 pb-20">
         {/* Background Images with smooth transitions */}
         <div className="absolute inset-0 z-0">
           <AnimatePresence mode="wait">
@@ -457,7 +457,7 @@ export default function App() {
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center cursor-pointer"
+          className="relative mt-16 md:mt-20 flex flex-col items-center cursor-pointer"
         >
           <a
             href="#about"
