@@ -1,0 +1,6 @@
+{
+  "name": "Richie Rich",
+  "description": "An ultra-premium luxury food and beverage destination specializing in handcrafted paan, signature protein shakes, artisan coffee, imported chocolates, and desserts. Built with a stunning dark noir aesthetic and gold accents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
