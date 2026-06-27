@@ -65,7 +65,6 @@ export default function App() {
   const [showSplash, setShowSplash] = useState(true);
   const logoImage = new URL("./assets/logo.png", import.meta.url).href;
   const heroBackgrounds = [
-    "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=90&w=1600", // Paan Prep
     "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=90&w=1600", // Coffee Pour
     "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&q=90&w=1600", // Protein Shake
     "https://images.unsplash.com/photo-1481391319762-47dff72954d9?auto=format&fit=crop&q=90&w=1600", // Premium Chocolates
